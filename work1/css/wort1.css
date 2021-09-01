@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/2.jpeg);
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+
+}
+.nav_link ul {
+    display: flex;
+    direction: rtl;
+    padding: 8px 60px ;
+    text-decoration: none;
+    
+
+}
+.nav_link ul ol{
+    padding-right: 12px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.nav_link ul ol a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.text_box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.text_box h1{
+    font-size: 40px; 
+
+}
+.text_box p{
+    margin: 10px 40px;
+    color: white;
+}
+.hero_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border:  1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.hero_btn:hover{
+    border: 1px solid #F44336;
+    background: #F44336;
+    transition: 0.5s;
+}
+@media (max-width : 700px) {
+    .text_box h1 {
+        font-size: 20px;
+    }
+
+}
+.courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+
+    
+}
+.course_col{
+    background-color: #fff3f3;
+    flex-basis: 31%;
+    border-radius: 15px ;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+.course_col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+@media( max-width: 700px ){
+    .row{
+        flex-direction:  column ;
+        
+        
+    }
+    .course_col{
+        margin-top:30px ;
+
+    }
+}
+
